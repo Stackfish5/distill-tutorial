@@ -1,12 +1,12 @@
 name: "."
-title: ".Title of My Final Project."
+title: "Title of My Final Project."
 description: |
-  .Title of My Final Project.
-output_dir: "docs"
+  Title of My Final Project.
+output_dir: "_site"
 navbar:
   right:
     - text: "Home"
-        href: index.html
+      href: index.html
     - text: "About"
-        href: about.html
+      href: about.html
 output: distill::distill_article

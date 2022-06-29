@@ -1,24 +1,32 @@
 ---
-title: "Title of My Final Project."
+title: "Title of My Final Project"
 description: |
   Welcome to the website. I hope you enjoy it!
 site: distill::distill_website
 ---
 
+
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = FALSE)
-
+library(tidyverse)
+library(ggthemes)
 # Learn more about creating websites with Distill at:
 # https://rstudio.github.io/distill/website.html
-
-# Learn more about publishing to GitHub Pages at:
-# https://rstudio.github.io/distill/publish_website.html#github-pages
-
-library("tidyverse")
-library("ggthemes")
 ```
 
+
 ```{r car-plot}
+mtcars |> 
+  select(mpg, wt) |> 
+  ggplot(aes(wt, mpg)) +
+  geom_point() +
+  geom_smooth(method = "lm", formula = y ~ x, se = FALSE) +
+  theme_clean() +
+  labs(title = "Fuel Efficiency and Weight",
+       subtitle = "Heavier cars are less fuel efficient", 
+       x = "Weight (1000s of lbs)", 
+       y = "MPG", 
+       caption = "Henderson and Vellerman 1981")
 
 ```
 
