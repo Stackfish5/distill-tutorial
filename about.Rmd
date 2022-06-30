@@ -8,3 +8,16 @@ description: |
 knitr::opts_chunk$set(echo = FALSE)
 ```
 
+## About Me
+My name is **Andrew Zhuo**. Goes to Newton North. Likes Chess Programming.
+
+[Kane’s Free High School Data Science Bootcamp](https://bootcamp.davidkane.info)
+
+This is data science  
+
+##About the Project
+This is the final project, don't know what to do yet.
+
+###Goals
+1.Regarding Chess
+2.Where to get data?

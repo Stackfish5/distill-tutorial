@@ -5,8 +5,8 @@
       "title": "About this site",
       "description": "Some additional details about the website",
       "author": [],
-      "contents": "\n\n\n\n",
-      "last_modified": "2022-06-28T21:46:59-04:00"
+      "contents": "\nAbout Me\nMy name is Andrew Zhuo. Goes to Newton North. Likes\nChess Programming.\nKane’s Free High School\nData Science Bootcamp\nThis is data science\n##About the Project This is the final project, don’t know what to do\nyet.\n###Goals 1.Regarding Chess 2.Where to get data?\n\n\n\n",
+      "last_modified": "2022-06-30T17:21:39-04:00"
     },
     {
       "path": "index.html",
@@ -14,7 +14,7 @@
       "description": "Welcome to the website. I hope you enjoy it!\n",
       "author": [],
       "contents": "\n\n\n\n\n\n\n",
-      "last_modified": "2022-06-28T21:47:03-04:00"
+      "last_modified": "2022-06-30T17:21:42-04:00"
     }
   ],
   "collections": []
